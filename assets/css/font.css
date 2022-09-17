@@ -1,0 +1,53 @@
+/*font family: Montserrat*/
+@font-face{
+	font-family: montserrat-bold;
+	src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face{
+	font-family: montserrat-light;
+	src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+@font-face{
+	font-family: montserrat-reg;
+	src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+
+/*font-family: Popins*/
+@font-face{
+	font-family: popin-bold;
+	src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face{
+	font-family: popin-reg;
+	src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face{
+	font-family: popin-light;
+	src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+/*font-family: Josefin*/
+@font-face{
+	font-family: josefin-reg;
+	src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+@font-face{
+	font-family: josefin-bold;
+	src: url(../fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+}
+@font-face{
+	font-family: josefin-light;
+	src: url(../fonts/Josefin_Sans/JosefinSans-Light.ttf);
+}
+
+/*font-family: Roboto*/
+@font-face{
+	font-family: Roboto-bold;
+	src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face{
+	font-family: Roboto-reguler;
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}

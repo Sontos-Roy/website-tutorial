@@ -1,0 +1,170 @@
+@import url(font.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.3 all ease-in-out;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat-reg;
+}
+/* Global Start  */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30;
+    font-family: josefin-bold;
+    padding: 2rem;
+}
+/* Global End  */
+/* Header Start  */
+
+/* toggler  */
+.toggler{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+.toggler:focus{
+    border: 1px solid gray;
+}
+.toggler .bar1{
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.toggler .bar2{
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.toggler .bar3{
+    height: 3px;
+    width: 30px;
+    background-color: white;
+}
+#header{
+    background: rgb(1, 1, 37);
+}
+.navbar{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: popin-bold;
+}
+.navbar-nav-box{
+    display: none;
+}
+.navbar-nav{
+    list-style: none;
+    display: flex;
+}
+.navbar-nav .nav-item{
+    padding: 10px;
+    list-style: none;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s all ease;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    padding-bottom: 0;
+    transition: 0.3s all ease;
+    border-bottom: 1px solid white;
+}
+/* Header End  */
+
+/* banner section Start  */
+.banner{
+    background-image: url(../img/hills-2836301_1920.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    align-items: center;
+    text-align: center;
+}
+.banner h1{
+    padding-top: 40vh;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: popin-bold;
+    letter-spacing: 8px;
+}
+.banner p{
+    padding-top: 1rem;
+    font-size: 20px;
+    color: white;
+}
+.buttons{
+    padding-top: 2rem;
+}
+.buttons .btn{
+    margin: 1rem 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+
+}
+.buttons .btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+/* banner section  End */
+
+/* Service Section Start  */
+#service{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.service-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.service-row .col{
+    flex-basis: 33.3333%;
+}
+.service-row .col .card{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    padding-top: 2rem;
+    line-height: 30px;
+    min-height: 10rem;
+    background: linear-gradient(to right, #121b44, #44010d) ;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 4px 5px #0000004a;
+    border-radius: 5px;
+}
+.card h1{
+    padding-bottom: 20px;
+}
+/* Service Section End  */

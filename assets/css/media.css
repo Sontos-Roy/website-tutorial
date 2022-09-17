@@ -1,0 +1,104 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .toggler{
+        margin-top: 10px;
+        display: block;
+    }
+    .navbar-nav{
+        padding: 2rem 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    .navbar-nav-box{
+        flex-basis: 100%;
+    }
+    .banner h1{
+        padding-top: 20vh;
+        font-size: 35px;
+    }
+    .banner p{
+        font-size: 18px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .toggler{
+        margin-top: 10px;
+        display: block;
+    }
+    .navbar-nav-box{
+        flex-basis: 100%;
+    }
+    .navbar-nav{
+        padding: 2rem 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    .banner h1{
+        padding-top: 25vh;
+        font-size: 45px;
+    }
+    .banner p{
+        font-size: 22px;
+    }
+    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .toggler{
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .navbar-nav-box{
+        flex-basis: 100%;
+    }
+    .navbar-nav{
+        padding: 2rem 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    .banner h1{
+        padding-top: 30vh;
+        font-size: 55px;
+    }
+    .banner p{
+        font-size: 25x;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar-nav-box{
+        display: block;
+    }
+}
+
+ /*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .navbar-nav-box{
+        display: block;
+    }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    .navbar-nav-box{
+        display: block;
+    }
+}
